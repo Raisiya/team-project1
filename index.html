@@ -6,78 +6,100 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Team project</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"/>
-    <link rel="stylesheet" href="./css/style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css"/>
 </head>
 <body>
-    <header>
-         
-        <nav class="navigation">
+    <!--Header-->
+    <header class="header">
+        <div class="container container-header">
           <a  class="logo" href="">Logo</a>
          <ul class="nav-list list">
-             <li class="nav-item"><a class="nav-page" href="">Home</a></li>
-             <li class="nav-item"><a class="nav-page" href="">About Us</a></li>
-             <li class="nav-item"><a class="nav-page" href="">Services</a></li>
-             <li class="nav-item"><a class="nav-page" href="">Blogs</a></li>
+             <li class="nav-item"><a class="nav-link link" href="">Home</a></li>
+             <li class="nav-item"><a class="nav-link link" href="">About Us</a></li>
+             <li class="nav-item"><a class="nav-link link" href="">Services</a></li>
+             <li class="nav-item"><a class="nav-link link" href="">Blogs</a></li>
          </ul>
-        </nav>
+         <button class="header-button" type="button">Gift Finder</button>
+        </div>
     </header>
-    <main>
-         
-        <section class-hero>
-            <ul class="hero-list list">
-                <li class="hero-item">
+    <main >
+        <!--Hero-->
+        <section class="hero">
+            <div class="container container-hero">
+                <div class="hero-description"> 
                     <h1 class="hero-title">Find a gift for your wife or girlfriend</h1>
-                    <p class="hero-item">Struggling to find a gift for your wife or girlfriend?
-                        No problem!
-                    </p>
-                    <button class="button" type="button">Find gift now</button>
-                    <img class="hero-img" src="./images/foto1.jpg" alt="para" width="719" height="700">
-                </li>
-                <li classhero-item>
-                    <img class="hero-img" src="./images/foto2.jpg" alt="post" width="721" height="600">
-                    <h1 class="hero-title">How we work</h1>
-                    <p class="hero-item">We’ve actually already asked hundreds of women what they want, and made a database with the results. All you have to do
+                    <p class="hero-text">Struggling to find a gift for your wife or girlfriend? No problem!</p>
+                    <button class="hero-button" type="button">Find gift now</button>
+                </div>       
+                <img class="hero-img" src="./images/foto1.jpg" alt="para" width="719" height="700">
+            </div>
+        </section>
+        <!-- Feature -->
+        <section class="feature">
+            <div class="container feature-container">
+                <img class="feature-img" src="./images/foto2.jpg" alt="post" width="721" height="600">
+                <div class="feature-descriptions">
+                    <h1 class="feature-title">How we work</h1>
+                    <p class="feature-text">We’ve actually already asked hundreds of women what they want, and made a database with the results. All you have to do
                     is take our short survey that only takes seconds, and our proprietary algorithm will match you with a few perfect gift
                     options.</p>
-                   <button class="button" type="button">Learn More</button>
-                </li>
-            </ul>
+                    <button class="feature-button" type="button">Learn More</button>
+                </div>
+            </div>
         </section>
-
+        <!-- Gifts -->
         <section class="gifts">
-                <h2 class="gifts-pre-title">Gifts for all Occasions</h2>
-                <p class="gifts-pre-text">“Try our web app to find the best gifts for all occasions”</p>
+            <div class="container container-gifts">
+                <h2 class="gifts-title">Gifts for all Occasions</h2>
+                <p class="gifts-text">“Try our web app to find the best gifts for all occasions”</p>
                 <ul class="gifts-list list">
-                 <li class="gifts-item"><img class="gifts-img" src="./images/foto3.jpg" alt="" width="270"  height="270">
-                    <p class="gifts-text">Birthday</p>
-                    <a href="">See More›</a>
-                </li>
-                 <li class="gifts-item"><img class="gifts-img" src="./images/foto4.jpg" alt="" width="270" height="270">
-                    <p class="gifts-text">Anniversary</p>
-                    <a href="">See More›</a>
-                </li>
-                 <li class="gifts-item"><img class="gifts-img" src="./images/foto5.jpg" alt="" width="270" height="270">
-                    <p class="gifts-text">Valentine's Day</p>
-                    <a href="">See More›</a>
-                </li>
-                 <li class="gifts-item"><img class="gifts-img" src="./images/foto6.jpg" alt="" width="270" height="270">
-                    <p class="gifts-text">Christmas</p>
-                    <a href="">See More›</a>
-                </li>
+                    <li class="gifts-item">
+                        <img class="gifts-img" src="./images/foto3.jpg" alt="" width="270"  height="270">
+                        <p class="after-text">Birthday</p>
+                        <button class="gifts-btn" type="button">See More›</button>
+                    </li>
+                    <li class="gifts-item">
+                        <img class="gifts-img" src="./images/foto4.jpg" alt="" width="270" height="270">
+                        <p class="after-text">Anniversary</p>
+                        <button class="gifts-btn" type="button">See More›</button>
+                    </li>
+                    <li class="gifts-item">
+                        <img class="gifts-img" src="./images/foto5.jpg" alt="" width="270" height="270">
+                        <p class="after-text">Valentine's Day</p>
+                        <button class="gifts-btn" type="button">See More›</button>
+                    </li>
+                    <li class="gifts-item">
+                        <img class="gifts-img" src="./images/foto6.jpg" alt="" width="270" height="270">
+                        <p class="after-text">Christmas</p>
+                        <button class="gifts-btn" type="button">See More›</button>
+                    </li>
                 </ul>
+            </div>
         </section>
-        <section class="promo">
-            <h2 class="promo-title">Ready to get started?</h2>
-            <p class="promo-text">Sign up or contact us</p>
-            <ul class="promo-list list">
-                <li class="promo-item">
-                    <button class="promo-button" type="button">Find gift now</button>
-                </li>
-                <li class="promo-item">
-                    <button class="promo-button" type="button">how it works</button>
-                </li>
-            </ul>
-            <section class="blogs">
+        <!-- Sign up -->
+        <section class="sing-up">
+            <div class="container container-sing-up">
+                <div class="sing-up-top">
+                    <h2 class="sing-up-title">Ready to get started?</h2>
+                    <p class="sing-up-text">Sign up or contact us</p>
+                </div>
+                <ul class="sing-up-list list">
+                    <li class="sing-up-item">
+                        <button class="sing-up-button primery" type="button">Find gift now</button>
+                    </li>
+                    <li class="sing-up-item">
+                        <button class="sing-up-button secondry" type="button">how it works</button>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- Blogs -->
+        <section class="blogs">
+            <div class="container-blogs container">
                 <h2 class="blogs-title">Our Best Blogs Ever</h2>
                 <p class="blogs-pre-text">“Try our blog to find the best tips and tricks to select your gift”</p>
                 <img src="./images/foto7.jpg" alt="pair" width="400" height="370">
@@ -85,15 +107,14 @@
                 <h2 class="blogs-title">The best way to wish your wife</h2>
                 <a href="">Read More</a>
                 <ul class="blogs-list list">
-                    <li class="blogs-item -after"><h3>Database to find the gifts for your girlfriend</h3>
+                    <li class="blogs-item-after"><h3>Database to find the gifts for your girlfriend</h3>
                     <p class="blogs-text-after">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore...</p>
                     <a href="">Read More</a></li>
-                    <li class="blogs-item -after"><h3>How Artificial Intelligence read your mind to find the best gift</h3>
+                    <li class="blogs-item-after"><h3>How Artificial Intelligence read your mind to find the best gift</h3>
                     <p class="blogs-text-after">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore...</p>
                     <a href="">Read More</a></li>
                 </ul>
-            
-            </section>
+            </div>
         </section>
     </main>
 
