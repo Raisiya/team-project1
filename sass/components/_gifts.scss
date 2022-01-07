@@ -1,0 +1,45 @@
+.container-gifts {
+  padding: 96px 135px 135px 135px;
+}
+.gifts-title {
+  margin-bottom: 23px;
+  font-size: 32px;
+  line-height: 1.19;
+  text-align: center;
+}
+.gifts-text {
+  margin-bottom: 64px;
+  font-size: 18px;
+  line-height: 1.33;
+  text-align: center;
+}
+.gifts-list {
+  display: flex;
+}
+.gifts-img {
+  margin-bottom: 24px;
+}
+.after-text {
+  margin: 24px 24px 74px 24px;
+  font-size: 20px;
+  line-height: 1.2;
+}
+.gifts-item {
+  background-color: var(--background-color2);
+  margin-right: 30px;
+  filter: drop-shadow(10px 10px 15px rgba(0, 0, 0, 0.05));
+}
+
+.gifts-linc:last-child {
+  margin-right: 0;
+}
+.gifts-btn {
+  margin-right: 179px;
+  background-color: var(--background-color2);
+  margin-bottom: 24px;
+  margin-left: 24px;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 1.36;
+  border-color: transparent;
+}

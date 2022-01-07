@@ -1,0 +1,30 @@
+.feature-descriptions {
+  padding: 164px 166px 104px 112px;
+}
+
+.feature-title {
+  font-size: 32px;
+  line-height: 1.41;
+  margin-bottom: 23px;
+}
+
+.feature-text {
+  margin-bottom: 52px;
+  font-size: 20px;
+  line-height: 1.4;
+  margin-bottom: 35px;
+}
+.feature-button {
+  width: 220px;
+  height: 60px;
+  font-size: 18px;
+  line-height: 1.22;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--accent-color);
+  background-color: var(--background-color1);
+  cursor: pointer;
+  border-radius: 5px;
+  border-color: var(--accent-color);
+}

@@ -1,0 +1,46 @@
+.header {
+  padding: 39px 40px 39px 80px;
+  background-color: #fafafa;
+}
+.container-header {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin-right: 433px;
+  font-family: Homemade Apple;
+  font-size: 18px;
+  color: var(--logo-color);
+  text-decoration: none;
+}
+.nav-list {
+  display: flex;
+  margin-right: auto;
+  justify-content: space-between;
+}
+.nav-item {
+  margin-right: 31px;
+}
+
+.header-button {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 13px 20px;
+  font-family: Gilroy;
+  font-size: 18px;
+  line-height: 1.22;
+  text-transform: uppercase;
+  color: var(--accent-color);
+  cursor: pointer;
+  border: 1px solid var(--accent-color);
+  border-radius: 5px;
+  background-color: var(--background-color2);
+}
+.nav-link {
+  align-items: center;
+  color: var(--main-text-color);
+  font-size: 18px;
+  line-height: 22px;
+}

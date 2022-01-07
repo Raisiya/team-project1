@@ -1,0 +1,42 @@
+.sing-up {
+  background-color: var(--accent-color);
+}
+.container-sing-up {
+  display: flex;
+  align-items: center;
+}
+.sing-up-top {
+  padding-top: 81px;
+  padding-bottom: 65px;
+  padding-left: 235px;
+  margin-right: 230px;
+}
+.sing-up-title {
+  font-size: 32px;
+  line-height: 1.41;
+}
+.sing-up-list {
+  display: flex;
+}
+.sing-up-button {
+  width: 200px;
+  height: 40px;
+  font-size: 18px;
+  line-height: 1.22;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--background-color2);
+  background-color: var(--main-color);
+}
+.sing-up-button.secondry {
+  background-color: var(--accent-color);
+  border-color: var(--main-color);
+  border-radius: 5px;
+}
+.sing-up-item {
+  margin-right: 16px;
+}
+.sing-up-item:last-child {
+  margin-right: 0px;
+}

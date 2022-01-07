@@ -1,0 +1,50 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+:root {
+  --accent-color: #f7941e;
+  --main-text-color: #000000;
+  --background-color1: #f1f1f2;
+  --background-color2: #ffffff;
+  --logo-color: #231f20;
+}
+body {
+  width: 1440px;
+  font-family: Roboto, sans-serif;
+  font-size: 20px;
+  color: var(--main-color);
+  background-color: var(--background-color1);
+  font-style: normal;
+  font-weight: normal;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+}
+.container {
+  width: 1440px;
+  outline: 1px solid tomato;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+  color: inherit;
+}
