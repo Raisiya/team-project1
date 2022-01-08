@@ -1,19 +1,23 @@
+.feature {
+  background-color: #f1f1f2;
+}
 .feature-descriptions {
   padding: 164px 166px 104px 112px;
 }
 
 .feature-title {
+  font-weight: normal;
   font-size: 32px;
   line-height: 1.41;
   margin-bottom: 23px;
 }
 
 .feature-text {
-  margin-bottom: 52px;
   font-size: 20px;
   line-height: 1.4;
   margin-bottom: 35px;
 }
+
 .feature-button {
   width: 220px;
   height: 60px;
@@ -27,4 +31,11 @@
   cursor: pointer;
   border-radius: 5px;
   border-color: var(--accent-color);
+  border: 1px solid var(--accent-color);
+}
+
+.feature-button:hover,
+.feature-button:focus {
+  color: #ffffff;
+  background-color: var(--accent-color);
 }

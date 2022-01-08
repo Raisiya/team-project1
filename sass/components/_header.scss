@@ -28,7 +28,7 @@
   align-items: center;
   text-align: center;
   padding: 13px 20px;
-  font-family: Gilroy;
+  font-weight: normal;
   font-size: 18px;
   line-height: 1.22;
   text-transform: uppercase;
@@ -37,6 +37,12 @@
   border: 1px solid var(--accent-color);
   border-radius: 5px;
   background-color: var(--background-color2);
+}
+
+.header-button:hover,
+.header-button:focus {
+  color: #ffffff;
+  background-color: var(--accent-color);
 }
 .nav-link {
   align-items: center;

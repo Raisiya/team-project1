@@ -15,12 +15,11 @@ html {
 }
 body {
   width: 1440px;
-  font-family: Roboto, sans-serif;
-  font-size: 20px;
-  color: var(--main-color);
-  background-color: var(--background-color1);
-  font-style: normal;
+  font-family: Poppins, sans-serif;
   font-weight: normal;
+  color: var(--main-color);
+  margin-left: auto;
+  margin-right: auto;
 }
 p,
 h1,
@@ -35,7 +34,6 @@ ul {
 }
 .container {
   width: 1440px;
-  outline: 1px solid tomato;
 }
 img {
   display: block;

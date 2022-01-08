@@ -6,10 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Team project</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Roboto:wght@400;700&display=swap"
-        rel="stylesheet">
+    
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+    href="https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Inter:wght@600&family=Poppins:wght@400;600&display=swap"
+    rel="stylesheet">
     <!-- <link rel="stylesheet" href="./css/styles.css"/> -->
     <link rel="stylesheet" href="./css/main.min.css" />
 </head>
@@ -17,14 +19,14 @@
     <!--Header-->
     <header class="header">
         <div class="container-header">
-          <a  class="logo" href="">Logo</a>
-         <ul class="nav-list list">
-             <li class="nav-item"><a class="nav-link link" href="">Home</a></li>
-             <li class="nav-item"><a class="nav-link link" href="">About Us</a></li>
-             <li class="nav-item"><a class="nav-link link" href="">Services</a></li>
-             <li class="nav-item"><a class="nav-link link" href="">Blogs</a></li>
-         </ul>
-         <button class="header-button" type="button">Gift Finder</button>
+        <a  class="logo" href="">Logo</a>
+        <ul class="nav-list list">
+            <li class="nav-item"><a class="nav-link link" href="">Home</a></li>
+            <li class="nav-item"><a class="nav-link link" href="">About Us</a></li>
+            <li class="nav-item"><a class="nav-link link" href="">Services</a></li>
+            <li class="nav-item"><a class="nav-link link" href="">Blogs</a></li>
+        </ul>
+        <button class="header-button" type="button">Gift Finder</button>
         </div>
     </header>
     <main >
@@ -61,24 +63,24 @@
                 <p class="gifts-text">“Try our web app to find the best gifts for all occasions”</p>
                 <ul class="gifts-list list">
                     <li class="gifts-item">
-                        <img class="gifts-img" src="./images/foto3.jpg" alt="" width="270"  height="270">
+                        <img class="gifts-img" src="./images/foto3.jpg" alt="cake" width="270"  height="270">
                         <p class="after-text">Birthday</p>
-                        <button class="gifts-btn" type="button">See More›</button>
+                        <a class="gifts-link link" href=" ">See More ›</a>
                     </li>
                     <li class="gifts-item">
-                        <img class="gifts-img" src="./images/foto4.jpg" alt="" width="270" height="270">
+                        <img class="gifts-img" src="./images/foto4.jpg" alt="shoes" width="270" height="270">
                         <p class="after-text">Anniversary</p>
-                        <button class="gifts-btn" type="button">See More›</button>
+                        <a class="gifts-link link" href=" ">See More ›</a>
                     </li>
                     <li class="gifts-item">
-                        <img class="gifts-img" src="./images/foto5.jpg" alt="" width="270" height="270">
+                        <img class="gifts-img" src="./images/foto5.jpg" alt="postcard" width="270" height="270">
                         <p class="after-text">Valentine's Day</p>
-                        <button class="gifts-btn" type="button">See More›</button>
-                    </li>
+                        <a class="gifts-link link" href=" ">See More ›</a>
+                    </li> 
                     <li class="gifts-item">
-                        <img class="gifts-img" src="./images/foto6.jpg" alt="" width="270" height="270">
+                        <img class="gifts-img" src="./images/foto6.jpg" alt="Christmas tree" width="270" height="270">
                         <p class="after-text">Christmas</p>
-                        <button class="gifts-btn" type="button">See More›</button>
+                        <a class="gifts-link link" href=" ">See More ›</a>
                     </li>
                 </ul>
             </div>
@@ -105,44 +107,64 @@
             <div class="container-blogs container">
                 <h2 class="blogs-title">Our Best Blogs Ever</h2>
                 <p class="blogs-pre-text">“Try our blog to find the best tips and tricks to select your gift”</p>
-                <img src="./images/foto7.jpg" alt="pair" width="400" height="370">
-                <p class="blogs-text">Mr. John Doe</p>
-                <h2 class="blogs-title">The best way to wish your wife</h2>
-                <a href="">Read More</a>
+                <div class="blogs-card">
+                    <img src="./images/foto7.jpg" alt="pair" width="400" height="370">
+                    <div class="blogs-slogan">
+                        <p class="blogs-slogan-text">Mr. John Doe</p>
+                        <h2 class="blogs-slogan-title">The best way to wish</br> your wife</h2>
+                        <a class="blogs-link link" href="">Read More</a>
+                    </div>
+                </div>
                 <ul class="blogs-list list">
-                    <li class="blogs-item-after"><h3>Database to find the gifts for your girlfriend</h3>
+                    <li class="blogs-item-after"><h3 class="blogs-title-after">Database to find the gifts for your</br> girlfriend</h3>
                     <p class="blogs-text-after">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore...</p>
-                    <a href="">Read More</a></li>
-                    <li class="blogs-item-after"><h3>How Artificial Intelligence read your mind to find the best gift</h3>
+                    <a class="blogs-link-after link" href="">Read More</a></li>
+                    <li class="blogs-item-after"><h3 class="blogs-title-after">How Artificial Intelligence read your mind to find the best gift</h3>
                     <p class="blogs-text-after">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore...</p>
-                    <a href="">Read More</a></li>
+                    <a class="blogs-link-after link" href="">Read More</a></li>
                 </ul>
             </div>
         </section>
     </main>
 
-    <footer>
-        <section class="footer" footer>
-            <div class="footer-nav">
-                <ul class="footer-list1 list">
-                    <li class="footer-item1"><a href="">Home</a></li>
-                    <li class="footer-item1"><a href="">About</a></li>
+        <section class="footer">
+            <div class="container">
+                <div class="footer-nav">
+                    <ul class="footer-list1 list">
+                        <li class="footer-item1"><a class="foorer-link1 link" href="">Home</a></li>
+                        <li class="footer-item1"><a class="foorer-link1 link" href="">About</a></li>
+                    </ul>
+                    <a class="logo logo--accent" href="">logo</a>
+                    <ul class="footer-list2 list">
+                        <li class="footer-item2"><a class="foorer-link2 link" href="">Service</a></li>
+                        <li class="footer-item2"><a class="foorer-link2 link" href="">Blog</a></li>
+                    </ul>
+                </div>
+                <ul class="footer-list3 list">
+                    <li class="footer-item3"><a class="footer-link link" href=""><svg class="socials-link" width="40" height="40"><use href="./images/icons.svg#icon-facebook"></use></svg></use></a></li>
+                    <li class="footer-item3"><a class="footer-link link" href=""><svg class="socials-link" width="40"
+                                height="40">
+                                <use href="./images/icons.svg#icon-twitter"></use>
+                            </svg></use></a></li>
+                    <li class="footer-item3"><a class="footer-link link" href=""><svg class="socials-link" width="40"
+                                height="40">
+                                <use href="./images/icons.svg#icon-instagram"></use>
+                                </svg></use></a></li>
+                    <li class="footer-item3"><a class="footer-link link" href=""><svg class="socials-link" width="40"
+                                height="40">
+                                <use href="./images/icons.svg#icon-pinterest"></use>
+                                </svg></use></a></li>
+                    <li class="footer-item3"><a class="footer-link link" href=""><svg class="socials-link" width="40"
+                                height="40">
+                                <use href="./images/icons.svg#icon-youtube"></use>
+                                </svg></use></a></li>
+
                 </ul>
-                <a class="footer-logo" href="">logo</a>
-                <ul class="footer-list2">
-                    <li class="footer-item2"><a href="">Service</a></li>
-                    <li class="footer-item2"><a href="">Blog</a></li>
-                </ul>
+                <div class="ground">
+                <p class="ground1">© 2010 — 2020</p>
+                <p class="ground2">Privacy — Terms</p> 
+                </div>
             </div>
-        <ul class="footer-list3 list">
-            <li class="footer-item3"><a class="footer-link" href="./images/facebook.svg">Facebook</a></li>
-            <li class="footer-item3"><a class="footer-link" href="./images/twitter.svg">twitter</a></li>
-            <li class="footer-item3"><a class="footer-link" href="./images/instagram.svg">instagram</a></li>
-            <li class="footer-item3"><a class="footer-link" href="./images/youtube.svg">youtube</a></li>
-            <li class="footer-item3"><a class="footer-link" href="./images/pinterest.svg">pinterest</a></li>
-        </ul>
-        <p class="groung">© 2010 — 2020 Privacy — Terms</p>
-    </footer>
 </section>
 </body>
 </html>

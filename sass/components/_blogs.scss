@@ -1,14 +1,86 @@
 .blogs {
-  padding: 88px 135px 80px 135px;
+  padding-top: 88px;
+  padding-bottom: 80px;
+  background-color: #fff;
 }
+
 .blogs-title {
+  font-weight: normal;
   font-size: 32px;
   line-height: 1.19;
+  margin-bottom: 23px;
+  text-align: center;
+  color: #000000;
 }
+
 .blogs-pre-text {
   font-size: 18px;
   line-height: 1.33;
+  margin-bottom: 71px;
+  text-align: center;
 }
+
+.blogs-card {
+  display: flex;
+  padding-left: 135px;
+  margin-bottom: 40px;
+}
+
+.blogs-slogan {
+  padding-left: 78px;
+  background-color: #231f20;
+  color: #ffffff;
+  width: 770px;
+  height: 370px;
+}
+
+.blogs-slogan-text {
+  padding-top: 63px;
+  margin-bottom: 27px;
+  font-size: 14px;
+  line-height: 1.43;
+}
+
+.blogs-slogan-title {
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 1.21;
+  margin-bottom: 60px;
+}
+
+.blogs-link {
+  font-size: 18px;
+  line-height: 1.39;
+  color: correntcolor;
+}
+
 .blogs-list {
   display: flex;
+  padding-left: 135px;
+  padding-right: 135px;
+}
+
+.blogs-item-after:first-child {
+  margin-right: 30px;
+}
+
+.blogs-item-after {
+  padding: 48px 48px 50px 48px;
+}
+
+.blogs-title-after {
+  font-size: 24px;
+  line-height: 1.42;
+  color: #000000;
+  margin-bottom: 16px;
+}
+
+.blogs-text-after {
+  margin-bottom: 16px;
+}
+
+.blogs-link-after {
+  font-size: 18px;
+  line-height: 1.39;
+  color: #000000;
 }

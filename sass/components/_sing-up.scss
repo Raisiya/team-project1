@@ -6,12 +6,19 @@
   align-items: center;
 }
 .sing-up-top {
-  padding-top: 81px;
-  padding-bottom: 65px;
+  padding-top: 70px;
+  padding-bottom: 70px;
   padding-left: 235px;
   margin-right: 230px;
 }
 .sing-up-title {
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 1.41;
+  color: #000000;
+}
+
+.sing-up-text {
   font-size: 32px;
   line-height: 1.41;
 }
@@ -26,17 +33,17 @@
   align-items: center;
   text-align: center;
   text-transform: uppercase;
-  color: var(--background-color2);
-  background-color: var(--main-color);
-}
-.sing-up-button.secondry {
-  background-color: var(--accent-color);
-  border-color: var(--main-color);
   border-radius: 5px;
+  color: #000000;
+  background-color: var(--accent-color);
+  border-color: #000000;
+  cursor: pointer;
 }
-.sing-up-item {
+
+.sing-up-button:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+.sing-up-item:first-child {
   margin-right: 16px;
-}
-.sing-up-item:last-child {
-  margin-right: 0px;
 }
